@@ -5,11 +5,11 @@ import java.awt.event.ActionListener;
 import javax.swing.border.EmptyBorder;
 import java.awt.geom.RoundRectangle2D;
 
-public class LoginFrame extends JFrame implements ActionListener {
+public class BookRankerLogin extends JFrame implements ActionListener {
     private JTextField usernameField;
     private JPasswordField passwordField;
 
-    public LoginFrame() {
+    public BookRankerLogin() {
         setTitle("BookRanker - Login");
         setSize(500, 220);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -55,7 +55,7 @@ public class LoginFrame extends JFrame implements ActionListener {
 
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
-            new LoginFrame();
+            new BookRankerLogin();
         });
     }
 
