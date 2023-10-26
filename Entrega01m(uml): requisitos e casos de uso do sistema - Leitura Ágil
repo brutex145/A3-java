@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-26T01:44:24.676Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="LaI0cbziInaryqRlFxya" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-26T02:04:21.328Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="Zd-MhWXyxHUqC9aolh_j" version="22.0.8" type="github">
   <diagram name="Página-1" id="mO-_KUleZv0Vk_3Jd7kI">
     <mxGraphModel dx="1050" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -34,7 +34,7 @@
         <mxCell id="RG3jT1nfnUZ2CQc4PenZ-9" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="574" y="10" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RG3jT1nfnUZ2CQc4PenZ-10" value="Classificar Livros Lidos (Inserir nota de 0 a 10)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="RG3jT1nfnUZ2CQc4PenZ-10" value="Avaliar Livros Lidos (Inserir nota de 0 a 10)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="584" y="25" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RG3jT1nfnUZ2CQc4PenZ-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="RG3jT1nfnUZ2CQc4PenZ-9">
@@ -118,17 +118,29 @@
         <mxCell id="RG3jT1nfnUZ2CQc4PenZ-38" value="Sair" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="619" y="190" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RG3jT1nfnUZ2CQc4PenZ-52" value="Requisitos Funcionais" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="174" y="481" width="176" height="104" as="geometry" />
+        <mxCell id="RG3jT1nfnUZ2CQc4PenZ-52" value="Requisitos Não Funcionais" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="491" width="230" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="RG3jT1nfnUZ2CQc4PenZ-53" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RG3jT1nfnUZ2CQc4PenZ-52">
+        <mxCell id="RG3jT1nfnUZ2CQc4PenZ-56" value="Informações Pessoais dos Usuários" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RG3jT1nfnUZ2CQc4PenZ-52">
+          <mxGeometry y="26" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RG3jT1nfnUZ2CQc4PenZ-55" value="Verificar Login e Senha de cada Usuário" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RG3jT1nfnUZ2CQc4PenZ-52">
+          <mxGeometry y="52" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RG3jT1nfnUZ2CQc4PenZ-57" value="Requisitos Funcionais" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="184" y="491" width="176" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="RG3jT1nfnUZ2CQc4PenZ-58" value="Realizar o Login" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RG3jT1nfnUZ2CQc4PenZ-57">
           <mxGeometry y="26" width="176" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="RG3jT1nfnUZ2CQc4PenZ-54" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RG3jT1nfnUZ2CQc4PenZ-52">
+        <mxCell id="RG3jT1nfnUZ2CQc4PenZ-59" value="Cadastrar Livros Lidos" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RG3jT1nfnUZ2CQc4PenZ-57">
           <mxGeometry y="52" width="176" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="RG3jT1nfnUZ2CQc4PenZ-55" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RG3jT1nfnUZ2CQc4PenZ-52">
+        <mxCell id="RG3jT1nfnUZ2CQc4PenZ-60" value="Cadastrar Usuários Comuns" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RG3jT1nfnUZ2CQc4PenZ-57">
           <mxGeometry y="78" width="176" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RG3jT1nfnUZ2CQc4PenZ-61" value="Avaliar Livros Cadastrados" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RG3jT1nfnUZ2CQc4PenZ-57">
+          <mxGeometry y="104" width="176" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
