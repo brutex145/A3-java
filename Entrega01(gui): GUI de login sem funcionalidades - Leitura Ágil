@@ -10,7 +10,7 @@ public class LoginFrame extends JFrame implements ActionListener {
     private JPasswordField passwordField;
 
     public LoginFrame() {
-        setTitle("Login");
+        setTitle("BookRanker - Login");
         setSize(500, 220);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
