@@ -1,0 +1,58 @@
+
+--Drop
+
+DROP TABLE tab_admin CASCADE CONSTRAINTS;
+DROP TABLE tab_usuario CASCADE CONSTRAINTS;
+DROP TABLE tab_biblioteca CASCADE CONSTRAINTS;
+
+
+--Tables
+
+CREATE TABLE tab_admin (
+    cd_usuario     NUMBER(8) NOT NULL,
+    cd_livro       NUMBER(8) NOT NULL,
+    dt_retirada    DATE,
+    dt_devolucao   DATE,
+    av_livro       NUMBER(2)
+    );
+    
+    
+CREATE TABLE tab_usuario (
+    cd_usuario  NUMBER(8) NOT NULL,
+    lg_usuario  VARCHAR2(20),
+    sn_usuario  VARCHAR2(128)
+    );
+
+CREATE TABLE tab_biblioteca (
+    cd_livro       NUMBER(8) NOT NULL,
+    nm_livro       VARCHAR2(128) NOT NULL,
+    nm_genero      VARCHAR2(128)
+    );
+
+-- Primary Key
+
+ALTER TABLE tab_admin ADD CONSTRAINT pk_tab_admin PRIMARY KEY ( cd_usuario);      
+                           
+ALTER TABLE tab_usuario ADD CONSTRAINT pk_tab_usuario PRIMARY KEY ( cd_usuario);  
+
+ALTER TABLE tab_biblioteca ADD CONSTRAINT pk_tab_biblioteca PRIMARY KEY ( cd_livro); 
+
+-- Foreign
+
+ALTER TABLE tab_admin
+    ADD CONSTRAINT fk_tab_admin_biblioteca FOREIGN KEY (cd_livro)
+        REFERENCES tab_biblioteca (cd_livro);
+
+ALTER TABLE tab_admin
+    ADD CONSTRAINT fk_tab_admin_usuario FOREIGN KEY (cd_usuario)
+    REFERENCES tab_usuario (cd_usuario);
+
+
+
+SELECT * FROM tab_admin 
+SELECT * FROM tab_usuario
+SELECT * FROM tab_biblioteca
+
+
+
+                                                                                   
